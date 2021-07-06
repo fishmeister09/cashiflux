@@ -119,10 +119,12 @@ const AuthForm = ({errorMessage, onSubmit, submitButtonText}) => {
             autoCorrect={false}
             style={{
               borderColor: '#000',
-              borderRadius: 12,
+              borderRadius: 10,
               borderWidth: 2,
-              color: 'black',
-              fontSize: 20,
+              color: 'rgba(0,0,0,0.7)',
+              fontSize: 18,
+              paddingLeft: 7,
+              fontWeight: 'bold',
             }}
             placeholder="Enter name"
             placeholderTextColor="rgba(0,0,0,0.6)"
@@ -160,10 +162,12 @@ const AuthForm = ({errorMessage, onSubmit, submitButtonText}) => {
             autoCorrect={false}
             style={{
               borderColor: '#000',
-              borderRadius: 12,
+              borderRadius: 10,
               borderWidth: 2,
-              color: 'black',
-              fontSize: 20,
+              color: 'rgba(0,0,0,0.7)',
+              fontSize: 18,
+              paddingLeft: 7,
+              fontWeight: 'bold',
             }}
             placeholder="example@email.com"
             placeholderTextColor="rgba(0,0,0,0.6)"
@@ -195,10 +199,12 @@ const AuthForm = ({errorMessage, onSubmit, submitButtonText}) => {
             autoCorrect={false}
             style={{
               borderColor: '#000',
-              borderRadius: 12,
+              borderRadius: 10,
               borderWidth: 2,
-              color: 'black',
-              fontSize: 20,
+              color: 'rgba(0,0,0,0.7)',
+              fontSize: 18,
+              paddingLeft: 7,
+              fontWeight: 'bold',
             }}
             placeholder="Must have at least 8 characters"
             placeholderTextColor="rgba(0,0,0,0.6)"
